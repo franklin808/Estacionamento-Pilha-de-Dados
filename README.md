@@ -16,3 +16,6 @@ significam que o carro de placa "ABC1234" entrou, seguido pelos carros "DEF5678"
 O estacionamento tem capacidade limitada a 5 vagas e funciona com uma única entrada/saída, semelhante a uma estrutura de pilha. Isso significa que, para um carro sair, todos os carros à sua frente precisam ser removidos temporariamente.
 
 Para cada evento de entrada, o programa verifica se há vaga. Se houver, o carro entra; caso contrário, é informado que o estacionamento está cheio. Ao sair, o programa conta e imprime quantas vezes o carro foi manobrado para permitir a saída de outros veículos.
+
+![image](https://github.com/user-attachments/assets/6428d205-6741-4687-a025-d5184029404a)
+
