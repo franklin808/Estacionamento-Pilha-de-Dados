@@ -90,10 +90,10 @@ void saidaCarro(char placaSaida[]) {
   
 
   if (strcmp(carroSaindo.placa, "") != 0) {
-    printf("VeÌculo %s deseja sair.\n", carroSaindo.placa);
+    printf("Ve√≠culo %s deseja sair.\n", carroSaindo.placa);
     printf("Carros manobrados: %d\n", carrosMovimentados);
   } else {
-    printf("VeÌculo %s n„o encontrado!\n", placaSaida);
+    printf("Ve√≠culo %s n√£o encontrado!\n", placaSaida);
   }
 }
 
@@ -107,12 +107,12 @@ int main() {
   Carro carro;
 
   while (1) {
-    printf("Estacionamento de VeÌculos\n\n",setlocale(LC_ALL,""));
-    printf("E + Placa do VeÌculo para entrada do veÌculo Exemplo : (E ABC1234)\n");
-    printf("S + Placa do VeÌculo para saÌda do veÌculo Exemplo : (S ABC1234)\n");
-    printf("Digite M para mostrar os veÌculos estacionados\n");
+    printf("Estacionamento de Ve√≠culos\n\n",setlocale(LC_ALL,""));
+    printf("E + Placa do Ve√≠culo para entrada do ve√≠culo Exemplo : (E ABC1234)\n");
+    printf("S + Placa do Ve√≠culo para sa√≠da do ve√≠culo Exemplo : (S ABC1234)\n");
+    printf("Digite M para mostrar os ve√≠culos estacionados\n");
     printf("Digite Q para Sair\n");
-    printf("Escolha uma opÁ„o: ");
+    printf("Escolha uma op√ß√£o: ");
     scanf("%c", &opcao);
 
     switch (opcao) {
@@ -140,7 +140,7 @@ int main() {
         printf("Saindo do sistema...\n");
         exit(0);
       default:
-        printf("OpÁ„o inv·lida. Tente novamente.\n");
+        printf("Op√ß√£o inv√°lida. Tente novamente.\n");
     }
   }
 
